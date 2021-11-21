@@ -7,10 +7,10 @@
 
 <Router>
   <Nav />
-  <Route path="/">
+  <Route path="/city_guide/">
     <Home />
   </Route>
-  <Route path="/join">
+  <Route path="/city_guide/join">
     <Join />
   </Route>
 </Router>
