@@ -11,7 +11,7 @@
       mode: "cors",
       headers: {
         "Content-Type": "application/json",
-        "Access-Control-Allow-Origin": "https://swarna1107.github.io",
+        "Access-Control-Allow-Origin": "http://swarnajha.pythonanywhere.com",
       },
       body: JSON.stringify({ city: value }),
     })
