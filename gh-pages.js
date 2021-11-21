@@ -4,10 +4,10 @@ ghpages.publish(
   "public", // path to public directory
   {
     branch: "gh-pages",
-    repo: "https://github.com/username/yourproject.git", // Update to point to your repository
+    repo: "https://github.com/swarna1107/city_guide.git", // Update to point to your repository
     user: {
-      name: "Abhigyan Ghosh", // update to use your name
-      email: "abhigyanghosh30@gmail.com", // Update to use your email
+      name: "Sawrna Jha", // update to use your name
+      email: "swarnajha@davbistupur.org", // Update to use your email
     },
   },
   () => {
