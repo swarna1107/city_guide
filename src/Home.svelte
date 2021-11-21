@@ -32,8 +32,8 @@
       <input
         class="form-control me-2"
         type="search"
-        placeholder="Search"
-        aria-label="Search"
+        placeholder="Search City"
+        aria-label="Search City"
         {value}
         on:change={changeValue}
       />
@@ -50,7 +50,7 @@
         <div class="card-body">
           <h5 class="card-title">{r.name}</h5>
           <h6 class="card-subtitle mb-2 text-muted">{r.city}</h6>
-          <a class="card-link" href={"mailto:" + r.email}>
+          <a class="card-link" href={"mailto:" + r.email} target="_blank">
             {r.email}
           </a>
         </div>
