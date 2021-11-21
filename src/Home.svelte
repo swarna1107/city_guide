@@ -6,7 +6,7 @@
   }
   function searchCity() {
     console.log(value);
-    fetch("http://http://swarnajha.pythonanywhere.com/search", {
+    fetch("http://swarnajha.pythonanywhere.com/search", {
       method: "POST",
       mode: "cors",
       headers: {

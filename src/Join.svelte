@@ -5,7 +5,7 @@
   const navigate = useNavigate();
   function submitForm() {
     console.log(data);
-    fetch("http://http://swarnajha.pythonanywhere.com/add", {
+    fetch("http://swarnajha.pythonanywhere.com/add", {
       method: "POST",
       mode: "cors",
       headers: {
