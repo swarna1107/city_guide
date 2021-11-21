@@ -6,12 +6,12 @@
   }
   function searchCity() {
     console.log(value);
-    fetch("http://127.0.0.1:5001/search", {
+    fetch("http://http://swarnajha.pythonanywhere.com/search", {
       method: "POST",
       mode: "cors",
       headers: {
         "Content-Type": "application/json",
-        "Access-Control-Allow-Origin": "127.0.0.1",
+        "Access-Control-Allow-Origin": "*",
       },
       body: JSON.stringify({ city: value }),
     })
