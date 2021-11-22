@@ -20,7 +20,7 @@
       .then((res) => {
         console.log(res);
         if (res.status == true) {
-          navigate("/");
+          navigate("/city_guide");
         } else {
           window.alert(res.message);
         }
